@@ -1,0 +1,38 @@
+Staff:
+  Permission: redblock.staff.security
+  
+  Mail:
+    Host: "37.187.119.35"
+    Title: "Gamalta - RedBlock"
+    Message: "Le code de sécurité est %token%"
+    
+  kickTime: 30
+  
+  Invalid:
+    Email: "l'email n'est pas valide"
+    Token: "le token n'est pas bon"
+    NoToken: "Vous avez mis trop de temps a ecrire le code"
+    Successful: "connection réussi"
+    
+  Inventory:
+  
+    Email: 
+      Name: "Entrez votre email"
+      Items:
+        "validate":
+          Type: GREEN_STAINED_GLASS_PANE
+          Name: "&6Valider"
+          Slot: 2
+          
+    Token: 
+      Name: "Entrez le code reçu par email"
+      Items:
+        "validate":
+          Type: GREEN_STAINED_GLASS_PANE
+          Name: "&6Valider"
+          Slot: 2
+        "resend":
+          Type: BLUE_STAINED_GLASS_PANE
+          Name: "&6Renvoyé un code"
+          Slot: 1
+    

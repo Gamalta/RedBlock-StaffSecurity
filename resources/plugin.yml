@@ -1,0 +1,6 @@
+name: StaffSecurity
+main: fr.gamalta.redblock.staffsecurity.StaffSecurity
+version: 1.0
+author: Gamalta
+api-version: 1.15
+depend: [RedCore]
